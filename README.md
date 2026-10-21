@@ -1,0 +1,21 @@
+# Victory Studio website + campaign manager
+Plain HTML, CSS and JavaScript, so it is free to host and easy to edit.
+
+## Put it on GitHub (free hosting with GitHub Pages)
+1. Create a free GitHub account, then a new public repository (e.g. `victory-studio`).
+2. Upload everything in this folder (keep the folders `css`, `js`, `assets`).
+3. Repository Settings > Pages > Source: Deploy from a branch > `main` / root > Save.
+4. After a minute your site is live at `https://<your-username>.github.io/victory-studio/`.
+
+## Editing later
+- Website text: `index.html` (replace the [BRACKETED] placeholders)
+- Logo: replace `assets/logo.jpg` (same file name)
+- Colours and look: top of `css/style.css`
+- Campaign manager: `app.html` and `js/app.js`
+Edit a file on GitHub with the pencil icon, then Commit. The site updates in about a minute.
+
+## Good to know
+- Campaign data is saved in the browser you use. Use Dashboard > Download backup regularly.
+- Anyone can open app.html, but they only see data saved in their own browser.
+- Client approvals: the app copies a message to send by WhatsApp or email; you set the status yourself.
+- Assistant tab: type commands like `task Edit reels for [campaign] due friday` or `remind me to call Acme on monday`. It runs in the browser (free). For phone reminders even when the app is closed, use Download calendar (.ics) and open it on your phone.
