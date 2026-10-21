@@ -19,3 +19,6 @@ Edit a file on GitHub with the pencil icon, then Commit. The site updates in abo
 - Anyone can open app.html, but they only see data saved in their own browser.
 - Client approvals: the app copies a message to send by WhatsApp or email; you set the status yourself.
 - Assistant tab: type commands like `task Edit reels for [campaign] due friday` or `remind me to call Acme on monday`. It runs in the browser (free). For phone reminders even when the app is closed, use Download calendar (.ics) and open it on your phone.
+
+## Editing your website (easy)
+Open `js/config.js` on GitHub (pencil icon). Add your WhatsApp number, email, social links, package prices, testimonials and gallery file names. Upload photos into `assets/gallery/`. Commit, and the site updates in about a minute.
