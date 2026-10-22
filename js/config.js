@@ -5,6 +5,21 @@ window.SITE={
   instagram:"",  // paste your full Instagram page link here when ready
   tiktok:"",     // paste your full TikTok page link here when ready
   facebook:"",   // paste your full Facebook page link here when ready
+  priceNote:"All prices are starting prices. Your final quote depends on your project.",
+  catalogue:[
+    {group:"Photography",items:[
+      {name:"Mini session",price:"From R1,200",note:"A short shoot with edited photos delivered online."},
+      {name:"Portrait or family session",price:"From R1,800",note:"About an hour, with edited photos delivered online."},
+      {name:"Event coverage (half day)",price:"From R3,500",note:"Up to about 4 hours with an edited gallery."},
+      {name:"Brand or product shoot",price:"From R4,500",note:"Styled shots for your website, shop and social pages."}]},
+    {group:"Video and content",items:[
+      {name:"Short video recap",price:"From R4,500",note:"A vertical edit of your event or shoot for Instagram, TikTok and Facebook."},
+      {name:"Reels and TikTok pack",price:"On request",note:"A set of short videos planned around your campaign."}]},
+    {group:"Social media management",items:[
+      {name:"Starter",price:"From R3,500 a month",note:"One platform, 8 posts a month, content calendar and simple report."},
+      {name:"Growth",price:"From R6,500 a month",note:"Two platforms, 12 posts and 2 short videos, community replies and monthly review."},
+      {name:"Full Service",price:"From R10,000 a month",note:"Instagram, TikTok and Facebook, 20 posts and 4 reels, community management and strategy call."}]}
+  ],
   packages:[
     {name:"Starter",price:"From R3,500 a month",items:["One platform of your choice","8 posts a month with captions","Monthly content calendar","Simple monthly report"]},
     {name:"Growth",price:"From R6,500 a month",items:["Two platforms","12 posts and 2 short videos a month","Community replies","Monthly report and review"]},

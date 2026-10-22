@@ -22,3 +22,5 @@ Edit a file on GitHub with the pencil icon, then Commit. The site updates in abo
 
 ## Editing your website (easy)
 Open `js/config.js` on GitHub (pencil icon). Add your WhatsApp number, email, social links, package prices, testimonials and gallery file names. Upload photos into `assets/gallery/`. Commit, and the site updates in about a minute.
+- AI: in the Assistant tab, paste a free Google Gemini key under AI setup. The key stays in your browser. If AI stops working, change the model name in that box to a current Gemini model from ai.google.dev.
+- Catalogue page: `catalogue.html` reads its services and prices from `js/config.js` (the `catalogue` list). Change a price there and it updates. The gallery on the homepage hides itself until you add photos to `gallery` in `config.js`.
