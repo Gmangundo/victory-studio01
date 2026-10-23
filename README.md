@@ -9,7 +9,7 @@ Plain HTML, CSS and JavaScript, so it is free to host and easy to edit.
 
 ## Editing later
 - Website text: `index.html` (replace the [BRACKETED] placeholders)
-- Logo: replace `assets/logo.jpg` (same file name)
+- Logo: replace `assets/logo.svg` (dark) and `assets/logo-light.svg` (for invoices)
 - Colours and look: top of `css/style.css`
 - Campaign manager: `app.html` and `js/app.js`
 Edit a file on GitHub with the pencil icon, then Commit. The site updates in about a minute.
@@ -27,3 +27,4 @@ Open `js/config.js` on GitHub (pencil icon). Add your WhatsApp number, email, so
 - Client approvals: Calendar > "Get approval link" creates a private link (approve.html?id=...) to send to a client by WhatsApp or email. They tap Approve or Request changes. Click "Check client responses" in Calendar to pull their answer in. Approvals are stored in a free Supabase project named victory-studio. Keep your owner code private.
 - Booking: book.html lets clients pick a service, day and time slot (09:00, 11:00, 13:00, 15:00; two hours each). Booked slots are greyed out. Requests are held as Pending; in the Campaign Manager open Bookings to Confirm after the deposit is paid, or Cancel to free the slot. Set deposit, paymentLink and bankDetails in js/config.js.
 - Team login: app.html asks for a password before it opens. The password is checked on the server, with a 10-minute lockout after 10 wrong tries. Use Dashboard > Change password to set your own, and Log out on shared computers. Campaign data is still saved in the browser you use, so keep your own devices locked too.
+- Cloud storage: after login, the manager saves your clients, campaigns, tasks, posts, invoices and reminders to your Supabase project as well as to the browser, so they follow you to any device. Bookings and website enquiries are stored in Supabase too. The newest save wins if two devices edit at once.
