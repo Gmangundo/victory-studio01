@@ -5,6 +5,11 @@ window.SITE={
   instagram:"",  // paste your full Instagram page link here when ready
   tiktok:"",     // paste your full TikTok page link here when ready
   facebook:"",   // paste your full Facebook page link here when ready
+  closedDays:[],   // days you are closed: 0 = Sunday, 6 = Saturday
+  sundaySlots:["15:00"],   // Sundays: only these slots are offered (open after 14:30)
+  deposit:"50% of the fee",
+  paymentLink:"",   // paste a PayFast, Yoco or Paystack payment link here
+  bankDetails:"Capitec, Main Account, MR GUNDO RAMAHANEDZA, Account number 1562342345, Branch code 470010, SWIFT CABLZAJJ",
   priceNote:"All prices are starting prices. Your final quote depends on your project.",
   catalogue:[
     {group:"Photography",items:[

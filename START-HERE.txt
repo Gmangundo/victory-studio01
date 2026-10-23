@@ -1,5 +1,18 @@
-1. You have already unzipped this folder. Good.
-2. Double-click index.html to see your website.
-3. Double-click app.html to open the campaign manager.
-4. Keep every file and folder where it is (css, js, assets). Do not move index.html on its own.
-5. To put it online, see README.md.
+VICTORY STUDIO: COMPLETE SITE (latest version)
+
+TO PUT IT ONLINE (GitHub)
+1. Right-click this zip, choose Extract All, then open the extracted folder.
+2. On GitHub open your repository, click Add file, then Upload files.
+3. Open the extracted folder, press Ctrl+A to select everything inside it, and drag it all onto the GitHub page.
+   Drag the contents (index.html, book.html, the css/js/assets folders), not the outer folder.
+4. Wait for every file to finish loading, then click Commit changes.
+5. Wait a minute, open your site and press Ctrl+F5.
+
+CHECK AFTERWARDS
+- Main page lists: index.html, book.html, app.html, catalogue.html, approve.html, README.md, START-HERE.txt and folders css, js, assets.
+- Folder js lists: app.js, approve.js, book.js, catalogue.js, config.js, icons.js, site.js.
+- Folder css lists: style.css, site.css.
+
+YOUR PAGES
+index.html = website, book.html = booking, catalogue.html = prices, app.html = campaign manager (Team link).
+Edit prices, contacts and slots in js/config.js. See README.md for more.
