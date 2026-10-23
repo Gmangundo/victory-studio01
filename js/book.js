@@ -19,7 +19,7 @@ const R=n=>"R"+Number(n).toLocaleString("en-ZA");
 (()=>{const s=document.createElement("style");s.textContent="@media print{body *{visibility:hidden}#inv,#inv *{visibility:visible}#inv{position:absolute;left:0;top:0;width:100%;border:0}}";document.head.append(s)})();
 function inv(ref){const svc=$("#sv").value,m=svc.match(/R\s?([\d,]+)/),fee=m?+m[1].replace(/,/g,""):0,pct=C.depositPercent||50,dep=fee*pct/100,box=el("div","card");box.id="inv";
  const row=(a,c,cl)=>{const r=el("div","row");r.style.justifyContent="space-between";r.append(el("span",cl,a),el("span",cl,c));return r};
- const L=[el("h2",0,"Deposit invoice"),el("p","mu","Invoice no: INV-"+ref+" · Date: "+new Date().toLocaleDateString("en-ZA")),el("h3",0,"Victory Studio Media House"),el("p","mu",[C.email,C.whatsapp?"WhatsApp "+C.whatsapp:""].filter(Boolean).join(" · ")),
+ const lg=el("img");lg.src="assets/logo.jpg";lg.alt="Victory Studio Media House";lg.style.cssText="width:100%;max-width:420px;border-radius:10px;display:block;margin-bottom:8px";const L=[lg,el("h2",0,"Deposit invoice"),el("p","mu","Invoice no: INV-"+ref+" · Date: "+new Date().toLocaleDateString("en-ZA")),el("h3",0,"Victory Studio Media House"),el("p","mu",[C.email,C.whatsapp?"WhatsApp "+C.whatsapp:""].filter(Boolean).join(" · ")),
   el("h3",0,"Billed to"),el("p",0,[$("#nm").value.trim(),$("#ph").value.trim(),$("#em").value.trim()].filter(Boolean).join(" · ")),
   row("Service",svc.replace(/\s*\(.*\)$/,"")),row("Shoot date",P.day+", "+lab(P.slot))];
  if(fee)L.push(row("Fee (starting price)",R(fee)),row("Deposit due ("+pct+"%)",R(dep),"ok"),row("Balance after deposit",R(fee-dep)));else L.push(row("Fee","To be confirmed"),row("Deposit due",pct+"% of the confirmed fee","ok"));
